@@ -11,4 +11,3 @@ def groupAnagrams(strs: list[str]) ->list[list[str]]:
         return list(dict.values())
 
 print(groupAnagrams(["act","pots","tops","cat","stop","hat"]))
-print(groupAnagrams(["x"]))
